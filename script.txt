@@ -1,0 +1,8 @@
+create table ANEXOS
+(
+   id integer not null primary key,
+   data TimeStamp,
+   file_name varchar(50)
+);
+
+create generator GEN_ANEXOS;
