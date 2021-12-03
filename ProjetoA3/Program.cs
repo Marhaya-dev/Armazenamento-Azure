@@ -11,6 +11,8 @@ namespace ProjetoA3
 {
     public class Program
     {
+        public static object Configuration { get; internal set; }
+
         public static void Main(string[] args)
         {
             CreateHostBuilder(args).Build().Run();
